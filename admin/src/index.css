@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  font-family: Outfit;
+}
+
+select, input, textarea{
+  border:1px solid #F5F5F5;
+  outline-color: #CAEEC2;
+  border-radius: 4px;
+}
+
+.italiana-regular {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.active{
+  background-color: #ffebf5;
+  border-color: #CAEEC2;
+}
+
