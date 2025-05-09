@@ -14,23 +14,22 @@ const port = process.env.PORT || 4000
 connectDB()
 connectCloudinary()
 
-const allowedOrigins = [
-  'http://localhost:3000', // dev
-  'https://dorian2-frontend.vercel.app' // deployed frontend
-];
+// const allowedOrigins = [
+//   'http://localhost:3000', // dev
+// ];
 
-app.use(cors({
-  origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  },
-  credentials: true
-}));
+// app.use(cors({
+//   origin: function (origin, callback) {
+//     if (!origin || allowedOrigins.includes(origin)) {
+//       callback(null, true);
+//     } else {
+//       callback(new Error('Not allowed by CORS'));
+//     }
+//   },
+//   credentials: true
+// }));
 
-app.options('*', cors()); 
+// app.options('*', cors()); 
 
 
 // middlewares
