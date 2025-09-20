@@ -1,4 +1,4 @@
-**Deployed Project URLs: **
+**Deployed Project URLs**:
 **Frontend**: https://dorian2-frontend.vercel.app/ 
 **Admin**: https://dorian2-admin.vercel.app/ 
 
